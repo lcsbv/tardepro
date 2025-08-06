@@ -80,6 +80,7 @@ main {
   align-items: flex-start;
   max-width: 330px;
   text-align: left;
+  transition: transform .2s, box-shadow .2s; /* Adiciona transição para hover */
 }
 .why h2 {
   font-size: 1.5rem;
@@ -105,6 +106,12 @@ main {
 }
 .why button:hover {
   background: #195ca7;
+}
+
+/* Efeito igual da caixa branca ao passar o mouse */
+.why:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 12px 32px #0e3f8d33;
 }
 
 .features {
