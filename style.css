@@ -105,7 +105,7 @@ main {
   transition: background .2s;
 }
 .why button:hover {
-  background: #195ca7;
+  background: #000000;
 }
 .why:hover {
   transform: translateY(-5px) scale(1.03);
@@ -253,4 +253,3 @@ main {
     font-size: 0.91rem;
   }
 }
-
