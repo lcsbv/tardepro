@@ -24,7 +24,7 @@ html, body {
   left: 0; top: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(234,240,246,0.70); /* overlay clarinho */
+  background: rgba(234,240,246,0.70);
   z-index: 1;
   pointer-events: none;
 }
@@ -208,8 +208,9 @@ main {
     box-sizing: border-box;
     margin: 0 auto;
   }
+  /* Aumento do padding no mobile para afastar texto da borda */
   .why {
-    padding: 7px 7px 9px 7px !important;
+    padding: 0px 18px 22px 18px !important;
     max-width: 93vw;
     margin-bottom: 14px;
   }
@@ -240,7 +241,7 @@ main {
     width: 100%;
     max-width: 100%;
     min-width: unset;
-    padding: 10px 6px 10px 6px;
+    padding: 20px 18px 22px 18px; /* mais afastamento no mobile */
     font-size: 0.95rem;
     align-items: flex-start;
     text-align: left;
